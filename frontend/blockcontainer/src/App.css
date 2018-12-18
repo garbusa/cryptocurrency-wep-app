@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.datebox {
+  text-align: right;
+}
+
+.news-date {
+  color: #8F8F8F;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+}
+
+
+.pages ul {
+  display: flex;
+  justify-content: center;
+}
+
+#page-numbers {
+  list-style: none;
+  display: flex;
+
+}
+
+#page-numbers > li {
+  margin-right: 0.3em;
+  color: blue;
+  user-select: none;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.pagebutton {
+  width: 10px;
+  height: 10px;
+}
+
+.currentPage {
+  background-color: #26323e;
+}
+
+.notcurrentPage {
+  background-color: #3ab4bd;
+}
+
+.page-link-new {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.page-link-left {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.page-link-right {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px; 
+}
+
+.page-link-new:hover {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #fff;
+    background-color: #26323e;
+    border: 1px solid #dee2e6;
+}
+
+
+.height500{
+  height: 500px;
+}
+
+.height400{
+  height: 400px;
+}
+
+.top100 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.selectmenu {
+  border: none;
+  font-size: 24px;
+  height: 60px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+  text-align: center;
+  text-align-last:center;
+  margin-bottom: 10px;
+}
+
+.pleaselogin {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+
+.loginbox {
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}
+
+.loginbox input {
+    padding: 4px;
+    font-size: 13px;
+    /* border-color: #26323e; */
+    border: 1px solid #a9a9a9;
+    border-radius: 5px;
+}
+
+.keyword-section {
+   margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+
+.header {
+  min-height: 120px;
+  padding-left: 118px;
+}
+
+.logo {
+
+}
+
+/*.navmenu {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.navtext:hover {
+  border-width: 0 0 5px;
+  border-style: solid;
+  border-color: #3AB4BD;
+  text-decoration: none;
+}
+*/
+
+.blue-btn {
+  background-color: #3AB4BD;
+  border: none;
+  color: white;
+  min-width: 150px;
+  height: 50px;
+  border-radius: 50px 50px 50px 50px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.blue-btn:hover, .blue-btn:active, .blue-btn:focus{
+  background-color: #26323E;
+  border: none;
+  color: white;
+  text-decoration: none;
+}
+
+.blue-btn:visited {
+  background-color: #3AB4BD;
+  border: none;
+  color: white;
+  text-decoration: none
+}
+
+.blue-btn-100 {
+  min-width: 100%;
+}
+
+
+.newsbox {
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  color: #8F8F8F;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+}
+
+.newsbox h6 {
+  font-size: 17px;
+  font-weight: bold;
+  color: #26323E;
+  letter-spacing: 0.1em;
+}
+
+.newsbox:hover {
+  background-color: #26323E;
+}
+
+.newsbox:hover h6  {
+  color: #ffffff;
+}
+
+.newsbox:hover .news-publisher  {
+  color: #ffffff;
+}
+
+.newsbox:hover .darkblue-btn  {
+  background-color: #ffffff;
+  color: #26323E;
+}
+
+.keyword {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  margin-left: 5px;
+  color: #3AB4BD;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.keywordbox {
+  margin-bottom: 14px;
+}
+
+.darkblue-btn {
+  width: 100%;
+  height: 40px;
+  border-radius: 50px 50px 50px 50px;
+  background-color: #26323E;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  border-style: none;
+  margin-top: 10px;
+}
+
+.darkblue-width {
+  max-width: 180px;
+  margin-right: 10px;
+}
+
+/** News App **/
+
+.news-div {
+  min-width: 300px;
+  min-height: 240px;
+  background-color: #efefef;
+  margin-bottom: 10px;
+  padding: 5px 5px 5px 5px;
+}
+
+.news-publisher {
+  color: #26323E;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+.keyword-form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.keyword-form select {
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 30px;
+}
+
+.keyword-form ul {
+  list-style: none;
+}
+
+.keyword-button {
+  margin-right: 10px;
+}
+
+
+/** Coin List **/
+
+.coin-table {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.thread-blue {
+  background-color: #34BCC4;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.coin-section {
+  text-align: center;
+}
+
+.negative-24h {
+  color: red;
+}
+
+.positive-24h {
+  color: green;
+}
+
+/** Portfolio **/
+
+.portfolio-form {
+  margin-bottom: 40px;
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.investment {
+  width: 300px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.portfolio-div {
+  min-width: 300px;
+  min-height: 240px;
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px 20px 20px 20px;
+  color: #26323E;
+}
+
+.overview{
+  text-align: left;
+  color: #3AB4BD;
+  letter-spacing: 0.05em;
+  margin-bottom: 10px;
+}
+
+.portfolio-div-top {
+  max-width: 500px;
+  min-height: 100px;
+  background-color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding: 5px 5px 5px 5px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px 20px 20px 20px;
+  color: #26323E;
+}
+
+.portfolio-button {
+  margin-right: 10px;
+}
+
+.addinvestment {
+  text-align: left;
+  padding: 20px 20px 20px 20px;
+}
+
+.width-90{
+  width: 90%;
+}
+
+.width-70{
+  width: 70%;
+}
+
+.width-100{
+  width: 100%;
+}
+
+.login-div {
+  min-width: 150px;
+  min-height: 240px;
+  width: 450px;
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px 20px 20px 20px;
+  color: #26323E;
+}
+
+.errormessage{
+  font-size: 13px;
+}
+
+.footer {
+  background-color: #26323E;
+  height: 300px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  padding-top: 50px;
+}
+
+.footerinside {
+  min-width: 250px;
+  
+  min-height: 100px;
+}
+
+/** ******** **/
+.beta-text {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.center-text {
+  text-align: center;
+}
