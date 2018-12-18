@@ -34,4 +34,4 @@ celery -A blockcontainer beat
 
 Informations
 -----------------------
-Database used PostgreSQL
+Database used PostgreSQL. There you have to edit the database settings in settings.py
