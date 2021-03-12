@@ -32,7 +32,7 @@
     "promise": "8.0.1",
     "react": "^16.5.2",
     "react-cookie-consent": "^1.8.0",
-    "react-dev-utils": "^4.1.0",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.5.2",
     "react-popup": "^0.9.3",
     "react-redux": "^5.0.7",
