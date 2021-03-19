@@ -15,7 +15,7 @@ django-node==4.0.2
 django-rest-framework==0.1.0
 django-rest-knox==3.1.5
 django-webpack-loader==0.6.0
-djangorestframework==3.8.2
+djangorestframework==3.11.2
 feedparser==5.2.1
 idna==2.7
 kombu==4.2.1
