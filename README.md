@@ -1,9 +1,5 @@
 # automated crypto web app news and portfolio manager
 
-Blockcontainer.io
------------------------
-At first you have to create a virtual environment
-
 Install Requirements
 -----------------------
 pip install -r requirements in \blockcontainer_django
