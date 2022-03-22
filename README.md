@@ -23,9 +23,9 @@ For celery tasks start .exe in backend/Redis
 
 Celery Commands
 -----------------------
-Starting the worker:
-celery -A blockcontainer worker --pool=solo -l info
-Periodic tasks:
+Starting the worker:\n
+celery -A blockcontainer worker --pool=solo -l info\n
+Periodic tasks:\n
 celery -A blockcontainer beat
 
 Informations
