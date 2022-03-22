@@ -1,33 +1,49 @@
 # automated crypto web app news and portfolio manager
 
+This project contains a web app which fetches news from different sources, a list of the top cryptocurrencies and its own portfolio manager.
+
 Install Requirements
 -----------------------
+```
 pip install -r requirements in \blockcontainer_django
+```
 
 Migrate Database
 -----------------------
+```
 manage.py makemigrations
 manage.py migrate
+```
 
 Starting Django
 -----------------------
-manage.py runserver in \blockcontainer_django
+```
+manage.py runserver 
+```
 
 Starting React.JS
 -----------------------
-npm run start in \frontend\blockcontainer
+in \frontend\blockcontainer
+```
+npm run start 
+```
 
 Starting Redis
 -----------------------
-For celery tasks start .exe in backend/Redis
+For celery tasks start .exe in backend/Redis or use your own instance
 
 Celery Commands
 -----------------------
 Starting the worker:  
+```
 celery -A blockcontainer worker --pool=solo -l info  
+```
 Periodic tasks:  
+```
 celery -A blockcontainer beat
+```
 
-Informations
+Information
 -----------------------
-Database used PostgreSQL. There you have to edit the database settings in settings.py
+In my case i use PostgreSQL, therefore you have to edit your database settings in the settings.py
+
