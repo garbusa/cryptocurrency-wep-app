@@ -31,5 +31,5 @@ requests==2.19.1
 semantic-version==2.6.0
 six==1.11.0
 updatable==0.3.1
-urllib3==1.23
+urllib3==1.26.5
 vine==1.1.4
