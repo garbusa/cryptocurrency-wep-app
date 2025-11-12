@@ -1,4 +1,4 @@
-# automated crypto web app news and portfolio manager
+# Simple news aggregator and portfolio manager for crypto currencies
 
 This project contains a web app which fetches news from different sources, a list of the top cryptocurrencies and its own portfolio manager.
 
