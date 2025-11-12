@@ -2,6 +2,8 @@
 
 This project contains a web app which fetches news from different sources, a list of the top cryptocurrencies and its own portfolio manager.
 
+**Technology used:** Django, Redis, Celery, React, PostgreSQL
+
 Install Requirements
 -----------------------
 ```
